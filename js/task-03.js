@@ -19,7 +19,7 @@ galleryEl.style.display = 'flex';
 const galleryItemMarkup = images.map(({url:src, alt}) => {
   return `
   <li class='gallery__item'>
-    <img src='${src}' alt='${alt}' class='gallery__img'>
+    <img src='${src}' alt='${alt}' class='gallery__img' style="width=400px">
   </li>
   `
 });
